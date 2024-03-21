@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/drevo2/rins/dis_tutorial3-main
+CMAKE_SOURCE_DIR = /home/drevo2/rins/ris_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3
+CMAKE_BINARY_DIR = /home/drevo2/rins/ris_1/build/dis_tutorial3
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drevo2/rins/dis_tutorial3-main /home/drevo2/rins/dis_tutorial3-main /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3 /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3 /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/drevo2/rins/ris_1/build/dis_tutorial3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drevo2/rins/ris_1 /home/drevo2/rins/ris_1 /home/drevo2/rins/ris_1/build/dis_tutorial3 /home/drevo2/rins/ris_1/build/dis_tutorial3 /home/drevo2/rins/ris_1/build/dis_tutorial3/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

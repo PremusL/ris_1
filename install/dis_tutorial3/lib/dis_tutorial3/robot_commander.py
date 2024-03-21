@@ -434,8 +434,55 @@ class RobotCommander(Node):
         # korak 9
         rc.info("korak 9")
         
-        goal_pose.pose.position.x = -1.1295809745788574
-        goal_pose.pose.position.y = 1.1154004335403442
+        goal_pose.pose.position.x = -1.13
+        goal_pose.pose.position.y = 1.147
+        rc.goToPose(goal_pose)
+
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(2)
+        rc.spin(6.28)
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(2)
+
+
+        # korak 10
+        rc.info("korak 10")
+        
+        goal_pose.pose.position.x = -1.52
+        goal_pose.pose.position.y = 4.447
+        rc.goToPose(goal_pose)
+
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(2)
+        rc.spin(6.28)
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(2)
+
+        # korak 10
+        rc.info("korak 10")
+        
+        goal_pose.pose.position.x = 1.74
+        goal_pose.pose.position.y = 3.07
+        rc.goToPose(goal_pose)
+
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(2)
+        rc.spin(6.28)
+        while not rc.isTaskComplete():
+            rc.info("Waiting for the task to complete...")
+            time.sleep(2)
+
+
+        # korak 10
+        rc.info("korak 10")
+        
+        goal_pose.pose.position.x = 3.37
+        goal_pose.pose.position.y = -1.426
         rc.goToPose(goal_pose)
 
         while not rc.isTaskComplete():

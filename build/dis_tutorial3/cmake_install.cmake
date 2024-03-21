@@ -1,8 +1,8 @@
-# Install script for directory: /home/drevo2/rins/dis_tutorial3-main
+# Install script for directory: /home/drevo2/rins/ris_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/drevo2/rins/dis_tutorial3-main/install/dis_tutorial3")
+  set(CMAKE_INSTALL_PREFIX "/home/drevo2/rins/ris_1/install/dis_tutorial3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,26 +44,26 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3/" TYPE DIRECTORY FILES
-    "/home/drevo2/rins/dis_tutorial3-main/launch"
-    "/home/drevo2/rins/dis_tutorial3-main/config"
-    "/home/drevo2/rins/dis_tutorial3-main/worlds"
-    "/home/drevo2/rins/dis_tutorial3-main/maps"
+    "/home/drevo2/rins/ris_1/launch"
+    "/home/drevo2/rins/ris_1/config"
+    "/home/drevo2/rins/ris_1/worlds"
+    "/home/drevo2/rins/ris_1/maps"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dis_tutorial3" TYPE PROGRAM FILES
-    "/home/drevo2/rins/dis_tutorial3-main/scripts/detect_people.py"
-    "/home/drevo2/rins/dis_tutorial3-main/scripts/robot_commander.py"
+    "/home/drevo2/rins/ris_1/scripts/detect_people.py"
+    "/home/drevo2/rins/ris_1/scripts/robot_commander.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dis_tutorial3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dis_tutorial3")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dis_tutorial3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dis_tutorial3")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,7 +71,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3/environment" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3/environment" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,42 +79,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3/environment" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3/environment" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_index/share/ament_index/resource_index/packages/dis_tutorial3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_index/share/ament_index/resource_index/packages/dis_tutorial3")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3/cmake" TYPE FILE FILES
-    "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_core/dis_tutorial3Config.cmake"
-    "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_core/dis_tutorial3Config-version.cmake"
+    "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_core/dis_tutorial3Config.cmake"
+    "/home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_core/dis_tutorial3Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/dis_tutorial3-main/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dis_tutorial3" TYPE FILE FILES "/home/drevo2/rins/ris_1/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -125,5 +125,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/drevo2/rins/ris_1/build/dis_tutorial3/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

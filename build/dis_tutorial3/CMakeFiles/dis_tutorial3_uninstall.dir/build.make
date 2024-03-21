@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/drevo2/rins/dis_tutorial3-main
+CMAKE_SOURCE_DIR = /home/drevo2/rins/ris_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3
+CMAKE_BINARY_DIR = /home/drevo2/rins/ris_1/build/dis_tutorial3
 
 # Utility rule file for dis_tutorial3_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dis_tutorial3_uninstall.dir/compiler_depend.make
 include CMakeFiles/dis_tutorial3_uninstall.dir/progress.make
 
 CMakeFiles/dis_tutorial3_uninstall:
-	/usr/bin/cmake -P /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/drevo2/rins/ris_1/build/dis_tutorial3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dis_tutorial3_uninstall: CMakeFiles/dis_tutorial3_uninstall
 dis_tutorial3_uninstall: CMakeFiles/dis_tutorial3_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dis_tutorial3_uninstall.dir/clean:
 .PHONY : CMakeFiles/dis_tutorial3_uninstall.dir/clean
 
 CMakeFiles/dis_tutorial3_uninstall.dir/depend:
-	cd /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drevo2/rins/dis_tutorial3-main /home/drevo2/rins/dis_tutorial3-main /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3 /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3 /home/drevo2/rins/dis_tutorial3-main/build/dis_tutorial3/CMakeFiles/dis_tutorial3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/drevo2/rins/ris_1/build/dis_tutorial3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drevo2/rins/ris_1 /home/drevo2/rins/ris_1 /home/drevo2/rins/ris_1/build/dis_tutorial3 /home/drevo2/rins/ris_1/build/dis_tutorial3 /home/drevo2/rins/ris_1/build/dis_tutorial3/CMakeFiles/dis_tutorial3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dis_tutorial3_uninstall.dir/depend
 
